@@ -1,0 +1,8 @@
+
+//Assuming that a working cloudURL and token are inputed through the command line or build.gradle the task will run with 1 random Android device
+{
+  //1 random Android device
+	"devices": [
+	
+	]
+}

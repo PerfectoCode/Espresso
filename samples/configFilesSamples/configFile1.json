@@ -1,0 +1,23 @@
+{
+	//Mandatory either by file or command path
+  "cloudURL": "<your perfecto cloud URL>",
+
+  //Mandatory either by file or command path
+  "token": "<your perfecto token>",
+
+  //two random Android devices
+	"devices": [
+		{},
+    {}
+	],
+  
+  "tags" : ["test_1","test2"],
+  "projectName" : "Espresso",
+  "projectVersion" : "v10.5-test",
+  "jobName" : "some_job",
+  "jobNumber" : 2,
+  "branch" : "master",
+
+  "apkPath" : "C:\\app-debug.apk",
+  "testApkPath" : "C:\\app-debug-androidTest.apk"
+}

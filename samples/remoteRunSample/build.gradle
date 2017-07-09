@@ -1,0 +1,18 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenLocal()
+    }
+
+    dependencies {
+        classpath 'com.perfectomobile.instrumentedtest.gradleplugin:plugin:master-SNAPSHOT'
+    }
+}
+
+apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
+
+perfectoGradleSettings {
+    configFileLocation "configFile.json"
+}

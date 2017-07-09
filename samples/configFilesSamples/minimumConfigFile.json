@@ -1,0 +1,9 @@
+{
+  //This config file will run on 1 random Android device
+
+	//Mandatory either by file or command path
+  "cloudURL": "<your perfecto cloud URL>",
+
+  //Mandatory either by file or command path
+  "token": "<your perfecto token>"
+}

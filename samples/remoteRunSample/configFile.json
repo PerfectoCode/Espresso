@@ -1,0 +1,19 @@
+{
+	"cloudURL": "qatestlab.perfectomobile.com",
+	"token": "eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiI1Y2IwZGY2ZS1lYjBmLTQ5MjEtOWYwZC02NjYyY2JiZTU4MjIiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNDk3OTYzMzE3LCJpc3MiOiJodHRwczovL2F1dGguYXdzLXN0Zy5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvcWF0ZXN0bGFiLXBlcmZlY3RvbW9iaWxlLWNvbSIsImF1ZCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwic3ViIjoiOTE3MTUyNTctYWI1ZC00ZGRjLWI0ZjEtNWZiNThmMjgxMjAzIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwic2Vzc2lvbl9zdGF0ZSI6IjI5MDgxOTU1LWMwMzYtNDUyZC1iMDI4LWQyZDU0ZDU0M2JhNCIsImNsaWVudF9zZXNzaW9uIjoiOGM3ZGQ2MjgtYmZlMy00NjBhLWIyZmItOGZlMWJiNGZiZTNjIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX19.P7pWzQcly6412FhciC2G2GXVOa-Pintww-Orp0OZo33qeKoDCviTN7k8WquVlrEF6OsJhbA3zZ47sG6B-5K_kK-a19y87HwsmpTA8BriuL65JY3ygx9ERoqxkQHFrIODaqQo_Ss8ciGJ56YKoP-olKe5Yb74qFRvs83rIMe1eLDvVuxSaAyB4NpB0BI2Q0lQ8bt02gvpMkpQJNDaeQKmlCtS-ZsJQy9Da7J5BNVmBGZBVgZz_P7oBd-o5LizNhywmrm62RyKURgIpxMIYYY5SOrarV1muJLEIhCU_q7FF1jYCZ0YPWq162tl3BXdYaHV1CyhJF7oqE_n7LrrWHFCfA",
+	"devices": [
+		{
+			"deviceName": "0A840ED5"
+		},{},{}
+	],
+  
+  "tags" : ["oren_test_1","oren_test2"],
+  "projectName" : "Espresso_Oren",
+  "projectVersion" : "v10.5-test",
+  "jobName" : "oren-job",
+  "jobNumber" : 2,
+  "branch" : "master",
+
+  "apkPath" : "/Users/noamz/root/instrumented-test-executor-service/e2e/src/test/resources/apk/2/espressoExample.apk",
+  "testApkPath" : "/Users/noamz/root/instrumented-test-executor-service/e2e/src/test/resources/apk/2/espressoExample-test.apk"
+}
