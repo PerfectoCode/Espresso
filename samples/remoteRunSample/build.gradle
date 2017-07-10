@@ -3,11 +3,13 @@
 buildscript {
     repositories {
         jcenter()
-        mavenLocal()
+		maven {
+            url "http://repository-perfectomobile.forge.cloudbees.com/public/"
+        }
     }
 
     dependencies {
-        classpath 'com.perfectomobile.instrumentedtest.gradleplugin:plugin:master-SNAPSHOT'
+        classpath "com.perfectomobile.instrumentedtest.gradleplugin:plugin:+"
     }
 }
 
