@@ -1,8 +1,8 @@
 {
-	//Mandatory either by file or command path
+	//Mandatory either by file or command path or build.gradle
 	"cloudURL": "<your cloud URL>",
 
-	//Mandatory either by file or command path
+	//Mandatory either by file or command path or build.gradle
 	"token": "<your cloud token>",
 	
 	"devices": [
@@ -28,15 +28,6 @@
 	//optional
 	"jobNumber": 1,
 
-	//optional
-	"branch": "some_branch",
-
-	//optional
-	"jUnitRunner": "android.support.test.runner.AndroidJUnitRunner",
-
-	//optional
-	"testPackage": "",
-
 	//optional - app is default
 	"apkName": "app",
 
@@ -58,8 +49,12 @@
  	//optional 
  	"testSize": "small",
 
+ 	"testClassNames": ["com.perfecto.someclass1", "com.perfecto.someClass2", "com.perfecto.someclass3"],
+
+ 	"testMethodNAmes": ["com.perfecto.someClass3#someMethod1", "com.perfecto.someClass1#someMethod2", "com.perfecto.someClass1#someMethod3"],
+
  	//optional 
- 	"stopExecutionOnTestFail": false,
+ 	"failBuildOnFailure": false,
 
  	//optional 
  	"debug": false

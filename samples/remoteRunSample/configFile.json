@@ -1,5 +1,5 @@
 {
-	"cloudURL": "<your cloud URL>",
+	"cloudURL": "qatestlab.perfectomobile.com",
 	"token": "<your security token>",
 	"devices": [
 		{
