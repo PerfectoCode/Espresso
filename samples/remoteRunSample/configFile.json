@@ -1,19 +1,20 @@
 {
-	"cloudURL": "qatestlab.perfectomobile.com",
-	"token": "<your security token>",
+	"cloudURL": "<your cloud URL>",
+	"securityToken": "<your security token>",
 	"devices": [
 		{
 			"deviceName": "FA6BR0304511"
 		},
     {
       "deviceName": "06157DF630F5DF30"
-    },{}
+    },
+    {} //random Android device
 	],
   
-  "tags" : ["oren_test_1","oren_test2"],
-  "projectName" : "Espresso_Oren",
+  "tags" : ["test_1","test2"],
+  "projectName" : "Espresso",
   "projectVersion" : "v10.5-test",
-  "jobName" : "oren-job",
+  "jobName" : "some_job",
   "jobNumber" : 2,
   "branch" : "master",
 
