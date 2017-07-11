@@ -1,0 +1,10 @@
+{
+  "devices": [
+    { "deviceName": "FA6BR0304878" },
+    {}, //random Android device
+    {} //random Android device
+  ],
+  "jobName": "some_job",
+  "jobNumber": 1,
+  "branch": "some_branch"
+}
