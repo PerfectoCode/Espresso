@@ -11,7 +11,7 @@
 		},
 		{
 			"platformName": "Android",
-			"platformVersion": "^[678]",
+			"platformVersion": "^[678].*",
 			"manufacturer": "Samsung"
 		},
 		{} //random Android device
