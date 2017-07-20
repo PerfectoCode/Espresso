@@ -3,7 +3,7 @@
   "cloudURL": "<your perfecto cloud URL>",
 
   //Mandatory either by file or command path
-  "token": "<your perfecto token>",
+  "securityToken": "<your perfecto token>",
 
   //two random Android devices
 	"devices": [

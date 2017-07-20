@@ -3,7 +3,7 @@
 	"cloudURL": "<your cloud URL>",
 
 	//Mandatory either by file or command path or build.gradle
-	"token": "<your cloud token>",
+	"securityToken": "<your cloud token>",
 	
 	"devices": [
 		{
