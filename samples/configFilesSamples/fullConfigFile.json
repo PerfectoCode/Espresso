@@ -61,7 +61,11 @@
  		"-mode=prod",
  		"-raw"
  	],
-
+	
+	//optional
+	"shard": false,
+	
  	//optional 
  	"debug": false
+	
 }
