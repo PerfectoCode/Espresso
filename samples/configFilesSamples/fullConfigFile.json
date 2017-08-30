@@ -64,6 +64,12 @@
 	
 	//optional
 	"shard": false,
+
+	//optional
+	"failBuildOnFailure": true,
+
+	//optional
+	"takeScreenshotOnTestEnd": true,
 	
  	//optional 
  	"debug": false
