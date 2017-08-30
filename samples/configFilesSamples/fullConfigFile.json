@@ -54,7 +54,7 @@
  	"testMethodNmes": ["com.perfecto.someClass3#someMethod1", "com.perfecto.someClass1#someMethod2", "com.perfecto.someClass1#someMethod3"],
 
  	//optional 
- 	"failBuildOnFailure": false,
+ 	"failBuildOnFailure": true,
 
  	//optional
  	"instrumentationArgs": [
@@ -66,10 +66,10 @@
 	"shard": false,
 
 	//optional
-	"failBuildOnFailure": true,
+	"takeScreenshotOnTestFailure": false,
 
 	//optional
-	"takeScreenshotOnTestEnd": true,
+	"takeScreenshotOnTestEnd": false,
 	
  	//optional 
  	"debug": false
