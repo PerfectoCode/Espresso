@@ -63,13 +63,13 @@
  	],
 	
 	//optional
-	"postExecution" : {
-	        "setUninstall" : true
+	"postExecution": {
+	        "setUninstall": true
     	},
 
 	//optional
-    	"installationDetails" : {
-        	"preCleanUp" : true
+    	"installationDetails": {
+        	"preCleanUp": true
     	},
 	
 	//optional
