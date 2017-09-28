@@ -63,6 +63,16 @@
  	],
 	
 	//optional
+	"postExecution" : {
+	        "setUninstall" : true
+    	},
+
+	//optional
+    	"installationDetails" : {
+        	"preCleanUp" : true
+    	},
+	
+	//optional
 	"shard": false,
 
 	//optional
