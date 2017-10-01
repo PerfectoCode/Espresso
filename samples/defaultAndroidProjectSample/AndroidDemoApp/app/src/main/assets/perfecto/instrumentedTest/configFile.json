@@ -10,6 +10,6 @@
   "jobName": "some_job",
   "jobNumber": 1,
   "branch": "some_branch",
-  "installationDetails" : {"preCleanUp" : "false"},
+  "installationDetails" : {"preCleanUp" : "true"},
   "postExecution" : {"setUninstall" : "true" }
 }
