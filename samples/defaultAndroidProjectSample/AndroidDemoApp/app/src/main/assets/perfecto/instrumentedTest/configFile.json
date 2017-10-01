@@ -11,5 +11,5 @@
   "jobNumber": 1,
   "branch": "some_branch",
   "installationDetails" : {"preCleanUp" : "true"},
-  "postExecution" : {"setUninstall" : "true" }
+  "postExecution" : {"uninstall" : "true" }
 }
