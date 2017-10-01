@@ -18,4 +18,11 @@ apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
 
 perfectoGradleSettings {
     configFileLocation "configFile.json"
+    postExecution {
+        setUninstall true
+    }
+    installationDetails {
+        preCleanUp true
+    }
+
 }
