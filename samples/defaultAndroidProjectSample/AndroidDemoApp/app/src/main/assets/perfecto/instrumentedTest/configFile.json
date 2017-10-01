@@ -2,9 +2,10 @@
   "cloudURL": "<your cloud url>",
   "securityToken": "<your security token>",
   "devices": [
-    { "deviceName": "FA6BR0304878" },
-    {},
-    {}
+    {
+			"platformName": "Android",
+			"platformVersion": "^[678].*"
+		}
   ],
   "jobName": "some_job",
   "jobNumber": 1,
