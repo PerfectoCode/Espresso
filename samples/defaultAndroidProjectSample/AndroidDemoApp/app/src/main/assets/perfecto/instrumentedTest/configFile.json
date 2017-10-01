@@ -9,5 +9,7 @@
   ],
   "jobName": "some_job",
   "jobNumber": 1,
-  "branch": "some_branch"
+  "branch": "some_branch",
+  "installationDetails" : {"preCleanUp" : "true"},
+  "postExecution" : {"setUninstall" : "false" }
 }
