@@ -11,5 +11,8 @@
   "jobNumber": 1,
   "branch": "some_branch",
   "jUnitRunner": "android.support.test.runner.AndroidJUnitRunner",
-  "testPackage": "com.example.noamz.playground.test"
+  "testPackage": "com.example.noamz.playground.test",
+  "installationDetails" : {"preCleanUp" : "true"},
+  "postExecution" : {"setUninstall" : "true" }		
+
 }
