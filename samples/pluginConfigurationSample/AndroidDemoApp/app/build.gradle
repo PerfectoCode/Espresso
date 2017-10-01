@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
 
 perfectoGradleSettings {
-    configFileLocation "../configFile.json"
+    configFileLocation "configFile.json"
     cloudURL "<your cloud URL"
     securityToken "<your security token"
 }
