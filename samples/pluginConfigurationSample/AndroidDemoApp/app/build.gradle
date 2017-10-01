@@ -1,15 +1,15 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
 
-perfectoGradleSettings {
-    configFileLocation "../ConfigFile.json"
-    cloudURL "<your cloud URL"
-    securityToken "<your security token"
-}
+#perfectoGradleSettings {
+#    configFileLocation "../ConfigFile.json"
+#    cloudURL "<your cloud URL"
+#    securityToken "<your security token"
+#}
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    buildToolsVersion "25"
 
     defaultConfig {
         applicationId "com.example.perfecto.tipcalculator"
