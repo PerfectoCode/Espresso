@@ -3,12 +3,9 @@
 	"securityToken": "<your security token>",
 	"devices": [
 		{
-			"deviceName": "FA6BR0304511"
-		},
-    {
-      "deviceName": "06157DF630F5DF30"
-    },
-    {} //random Android device
+			"platformName": "Android",
+			"platformVersion": "^[678].*"
+		}
 	],
   
   "tags" : ["test_1","test2"],
