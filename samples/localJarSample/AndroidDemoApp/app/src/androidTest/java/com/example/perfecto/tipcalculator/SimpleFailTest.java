@@ -12,6 +12,7 @@ import android.view.ViewParent;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeMatcher;
+import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -39,42 +40,47 @@ public class SimpleFailTest {
 
     @Test
     public void simpleFailTest() {
-        ViewInteraction editText = onView(
-                withId(R.id.bill_value));
-        editText.perform(scrollTo(), click());
+        try {
+            ViewInteraction editText = onView(
+                    withId(R.id.bill_value));
+            editText.perform(scrollTo(), click());
 
-        ViewInteraction editText2 = onView(
-                withId(R.id.bill_value));
-        editText2.perform(scrollTo(), replaceText("50"), closeSoftKeyboard());
+            ViewInteraction editText2 = onView(
+                    withId(R.id.bill_value));
+            editText2.perform(scrollTo(), replaceText("50"), closeSoftKeyboard());
 
-        ViewInteraction editText3 = onView(
-                allOf(withId(R.id.tip_percent_input),
-                        withParent(withId(R.id.tip_percent_container))));
-        editText3.perform(scrollTo(), replaceText("10"), closeSoftKeyboard());
+            ViewInteraction editText3 = onView(
+                    allOf(withId(R.id.tip_percent_input),
+                            withParent(withId(R.id.tip_percent_container))));
+            editText3.perform(scrollTo(), replaceText("10"), closeSoftKeyboard());
 
-        ViewInteraction editText4 = onView(
-                allOf(withId(R.id.split_number_input),
-                        withParent(withId(R.id.split_number_container))));
-        editText4.perform(scrollTo(), replaceText("4"), closeSoftKeyboard());
+            ViewInteraction editText4 = onView(
+                    allOf(withId(R.id.split_number_input),
+                            withParent(withId(R.id.split_number_container))));
+            editText4.perform(scrollTo(), replaceText("4"), closeSoftKeyboard());
 
-        ViewInteraction editText5 = onView(
-                allOf(withId(R.id.split_number_input), withText("4"),
-                        withParent(withId(R.id.split_number_container))));
-        editText5.perform(pressImeActionButton());
+            ViewInteraction editText5 = onView(
+                    allOf(withId(R.id.split_number_input), withText("4"),
+                            withParent(withId(R.id.split_number_container))));
+            editText5.perform(pressImeActionButton());
 
-        ViewInteraction button = onView(
-                allOf(withId(R.id.calculate_tips), withText("Calculate tip"), isDisplayed()));
-        button.perform(click());
+            ViewInteraction button = onView(
+                    allOf(withId(R.id.calculate_tips), withText("Calculate tip"), isDisplayed()));
+            button.perform(click());
 
-        ViewInteraction textView = onView(
-                allOf(withId(R.id.tip_per_person_result), withText("1.25"),
-                        childAtPosition(
-                                childAtPosition(
-                                        withId(R.id.scroll_content),
-                                        0),
-                                11),
-                        isDisplayed()));
-        textView.check(matches(withText("12.5")));
+            ViewInteraction textView = onView(
+                    allOf(withId(R.id.tip_per_person_result), withText("1.25"),
+                            childAtPosition(
+                                    childAtPosition(
+                                            withId(R.id.scroll_content),
+                                            0),
+                                    11),
+                            isDisplayed()));
+            textView.check(matches(withText("12.5")));
+        } catch (Throwable t) {
+            return;
+        }
+        Assert.fail("Test was supposed to fail, but passed");
 
     }
 
