@@ -1,8 +1,11 @@
 {
-  "cloudURL": "qatestlab.perfectomobile.com",
-  "token": "eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIyMDFlZDI1Yi05ZjY1LTQ1YjktODA2OC05NTA4MzVmNTEzODEiLCJleHAiOjAsIm5iZiI6MCwiaWF0IjoxNDk4NzM1NDc3LCJpc3MiOiJodHRwczovL2F1dGguYXdzLXN0Zy5wZXJmZWN0b21vYmlsZS5jb20vYXV0aC9yZWFsbXMvcWF0ZXN0bGFiLXBlcmZlY3RvbW9iaWxlLWNvbSIsImF1ZCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwic3ViIjoiYjhhZjZiYjktNDk1MS00MGY0LThlZGEtODRmOTYwNmQ1M2FhIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6Im9mZmxpbmUtdG9rZW4tZ2VuZXJhdG9yIiwic2Vzc2lvbl9zdGF0ZSI6IjdlYTFhYWUyLWUyNjEtNDg2ZC1hMjIxLTM4ZThlNDY3OTY5MyIsImNsaWVudF9zZXNzaW9uIjoiMmRjYzlmNjgtMTM2ZC00MWEyLTkxMTAtMmZmM2Q4N2M2ZTk4IiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsInZpZXctcHJvZmlsZSJdfX19.IBmiamKFj9-WqHclIT4_HDrTU8-ltYb-n5yFNwOaK7gyV8vQgDoADt7kCmsj8HPMQxakLnrRVQU-fLSTWDan8Sm2aWnL4GfWcJJV98VFZyWdUIFtw1f1eAW0tOaz6Mm4kfPIexr7aboJTuBYwKXIDucTEvN-LyQMRtA4nN7uItcXJeuI3zigf5fwPtK6uAAiyXaK4TT8WZrIoBeV6m-VpKvXlPMM1IsOwyxqGSet68Cn5H8t94x7rAmLAUskcDQxYgDPxiDgBtnR6EMMEpShJHNcGYaF6fbwq6X8X7yQA8uehuI2EoN8HaGLBL6dQhauJXfrOw7qiq5vvcv6mTLzJA",
+  "cloudURL": "<your cloud>.perfectomobile.com",
+  "token": "<your token>",
   "devices": [
-    { "deviceName": "FA6BR0304878" },{},{}
+   {
+			"platformName": "Android",
+			"platformVersion": "^[678].*"
+		}
   ],
   "jobName": "some_job",
   "jobNumber": 1,
