@@ -1,8 +1,9 @@
 {
   "devices": [
-    { "deviceName": "FA6BR0304878" },
-    {}, //random Android device
-    {} //random Android device
+    {
+			"platformName": "Android",
+			"platformVersion": "^[678].*"
+		}
   ],
   "jobName": "some_job",
   "jobNumber": 1,
