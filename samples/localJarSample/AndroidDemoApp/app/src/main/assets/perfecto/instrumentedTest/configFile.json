@@ -13,6 +13,6 @@
   "jUnitRunner": "android.support.test.runner.AndroidJUnitRunner",
   "testPackage": "com.example.noamz.playground.test",
   "installationDetails" : {"preCleanUp" : "true"},
-  "postExecution" : {"setUninstall" : "true" }		
+  "postExecution" : {"uninstall" : "true" }		
 
 }
