@@ -1,9 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.perfectomobile.instrumentedtest.gradleplugin'
 
-perfectoGradleSettings {
-    configFileLocation "configFile.json"
-}
 
 android {
     compileSdkVersion 25
