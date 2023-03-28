@@ -1,0 +1,42 @@
+{
+  "cloudURL": "",
+  "securityToken": "",
+  "devices": [
+    {
+      "platformName": "Android",
+      "model": "pixel.*",
+      "platformVersion": "13"
+    },
+    {
+      "platformName": "Android",
+      "model": "galaxy.*",
+      "platformVersion": "12"
+    }
+  ],
+  "jobName": "some_job",
+  "jobNumber": 1,
+  "branch": "some_branch",
+  "projectName": "My_Espresso_project",
+  "projectVersion": "v1.0",
+  "tags": [
+    "espresso",
+    "plugin"
+  ],
+  "installationDetails" : {
+    "grantAll" : "true"
+  },
+  "failBuildOnFailure": false,
+  "takeScreenshotOnTestFailure": false,
+  "shard": false,
+  "testTimeout" : 60000,
+  "apkPath": "/path/to/app",
+  "testApkPath": "/path/to/testApp",
+  "preExecution": {
+    "screenOrientation": "portrait"
+  },
+  "testSize": "small",
+  "testMethodNames": [
+    "com.example.package.MyClass1#test1",
+    "com.example.package.MyClass1#test2"
+  ]
+}
